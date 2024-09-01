@@ -1,0 +1,55 @@
+Atores: 
+- Funcionário
+- Gerente de Produção
+- Administrador
+
+1. Efetuar Login
+   - O usuário deve estar previamente cadastrado pelo administrador.  
+   - Inserir credenciais válidas (usuário e senha) de acordo com o cadastro.
+
+2. Visualizar Perfil
+   - Cada usuário tem permissão para visualizar apenas o próprio perfil.
+
+3. Visualizar Produção
+   - Visualizar dados e gráficos relacionados à produção e cultivo.
+
+--------------------------------------------------------------------------------
+
+Atores: 
+- Gerente de Produção
+- Administrador
+
+1. Disponibilidade de Produto
+   - Definir o produto.  
+   - Estabelecer a quantidade disponível.
+
+2. Gerenciar Produto
+   - Adicionar novos produtos.  
+   - Editar informações dos produtos.  
+   - Excluir produtos.
+
+3. Gerar Relatório
+   - Gerar relatórios para análise e gestão da produção.
+
+--------------------------------------------------------------------------------
+
+Atores: 
+- Administrador
+
+1. Gerenciar Fornecedor
+   - Adicionar novo fornecedor.  
+   - Editar dados de fornecedor.  
+   - Visualizar informações de fornecedor.  
+   - Bloquear fornecedor.
+
+2. Gerenciar Usuário
+   - Adicionar novos usuários.  
+   - Editar dados de usuários.  
+   - Visualizar perfis de usuários.  
+   - Bloquear usuários.
+
+--------------------------------------------------------------------------------
+
+Observações:
+- O ator "Administrador" e suas funções indicam a necessidade de um controle rigoroso de acesso e segurança no sistema.
+- A estrutura do caso de uso evidencia uma hierarquia de acesso, com funções específicas a cada nível de permissão.
